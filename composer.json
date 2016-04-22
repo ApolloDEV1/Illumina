@@ -1,0 +1,24 @@
+{
+  "name": "apollodev1/illumina",
+  "description": "A PHP Lightweight Framework",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "João Victor",
+      "email": "apollodeveloper@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "psr/log": "~1.0",
+    "bramus/router": "~1.0",
+    "monolog/monolog": "~1.19",
+    "swiftmailer/swiftmailer": "~5.4",
+    "vlucas/phpdotenv": "~2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Illumina\\": "src/"
+    }
+  }
+}
